@@ -1,3 +1,5 @@
+export {};
+
 // import React from "react";
 // import { ButtonSize, Variants } from "../../Utils/ButtonTypes/ButtonTypes";
 
@@ -28,20 +30,20 @@
 
 // export default Button;
 
-import React, { useState } from "react";
-import {
-  ButtonStatus,
-  ButtonTrigger,
-} from "../../Utils/ButtonTypes/ButtonTypes";
+// import React, { useState } from "react";
+// import {
+//   ButtonStatus,
+//   ButtonTrigger,
+// } from "../../src/Utils/ButtonTypes/ButtonTypes";
 
-interface ButtonProps {
-  title: string;
-  status: ButtonStatus;
-}
+// interface ButtonProps {
+//   title: string;
+//   status: ButtonStatus;
+// }
 
-function Button(props: ButtonProps) {
-  const { title, status } = props;
-  return <button style={{ border: ButtonTrigger }}>{title}</button>;
-}
+// function Button(props: ButtonProps) {
+//   const { title, status } = props;
+//   return <button style={{ border: ButtonTrigger }}>{title}</button>;
+// }
 
-export default Button;
+// export default Button;
