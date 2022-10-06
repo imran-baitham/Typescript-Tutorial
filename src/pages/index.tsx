@@ -18,6 +18,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
+        <h1 className="text-3xl font-bold underline">Hello world!</h1>
         {/* <Button title="Button" variants={Variants.PERMIRY} /> */}
         {/* <Button title="Hello World" status={ButtonStatus.PANDING} /> */}
         {/* <Input
@@ -34,7 +35,6 @@ const Home: NextPage = () => {
           //   return 3;
           // }}
         /> */}
-        hello world
       </main>
     </div>
   );
